@@ -8,3 +8,6 @@ E:\workspace\vs\QuanlybanMayTinh\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.csp
 E:\workspace\vs\QuanlybanMayTinh\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.exe
 E:\workspace\vs\QuanlybanMayTinh\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.pdb
 E:\workspace\vs\QuanlybanMayTinh\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.Form2.resources
+E:\workspace\baitap.kho\QuanlybanMayTinh\bin\Debug\QuanlybanMayTinh.exe.config
+E:\workspace\baitap.kho\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.exe
+E:\workspace\baitap.kho\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.pdb
