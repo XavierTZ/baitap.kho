@@ -1,0 +1,10 @@
+E:\workspace\vs\QuanlybanMayTinh\QuanlybanMayTinh\bin\Debug\QuanlybanMayTinh.exe.config
+E:\workspace\vs\QuanlybanMayTinh\QuanlybanMayTinh\bin\Debug\QuanlybanMayTinh.exe
+E:\workspace\vs\QuanlybanMayTinh\QuanlybanMayTinh\bin\Debug\QuanlybanMayTinh.pdb
+E:\workspace\vs\QuanlybanMayTinh\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.csprojResolveAssemblyReference.cache
+E:\workspace\vs\QuanlybanMayTinh\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.home.resources
+E:\workspace\vs\QuanlybanMayTinh\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.Properties.Resources.resources
+E:\workspace\vs\QuanlybanMayTinh\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.csproj.GenerateResource.Cache
+E:\workspace\vs\QuanlybanMayTinh\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.exe
+E:\workspace\vs\QuanlybanMayTinh\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.pdb
+E:\workspace\vs\QuanlybanMayTinh\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.Form2.resources
