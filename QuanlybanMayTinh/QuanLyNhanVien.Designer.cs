@@ -33,8 +33,8 @@
             this.Ten = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.GioiTinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NgaySinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txt_date = new System.Windows.Forms.TextBox();
             this.txt_id = new System.Windows.Forms.TextBox();
             this.txt_name = new System.Windows.Forms.TextBox();
@@ -63,8 +63,8 @@
             this.Ten,
             this.GioiTinh,
             this.NgaySinh,
-            this.email,
-            this.DiaChi});
+            this.DiaChi,
+            this.email});
             this.dgv_NhanVien.Location = new System.Drawing.Point(12, 99);
             this.dgv_NhanVien.Name = "dgv_NhanVien";
             this.dgv_NhanVien.ReadOnly = true;
@@ -100,19 +100,19 @@
             this.NgaySinh.Name = "NgaySinh";
             this.NgaySinh.ReadOnly = true;
             // 
-            // email
-            // 
-            this.email.DataPropertyName = "tEmail";
-            this.email.HeaderText = "Email";
-            this.email.Name = "email";
-            this.email.ReadOnly = true;
-            // 
             // DiaChi
             // 
             this.DiaChi.DataPropertyName = "tDiaChi";
             this.DiaChi.HeaderText = "Địa chỉ";
             this.DiaChi.Name = "DiaChi";
             this.DiaChi.ReadOnly = true;
+            // 
+            // email
+            // 
+            this.email.DataPropertyName = "tEmail";
+            this.email.HeaderText = "Email";
+            this.email.Name = "email";
+            this.email.ReadOnly = true;
             // 
             // txt_date
             // 
@@ -123,6 +123,7 @@
             // 
             // txt_id
             // 
+            this.txt_id.Enabled = false;
             this.txt_id.Location = new System.Drawing.Point(91, 10);
             this.txt_id.Name = "txt_id";
             this.txt_id.Size = new System.Drawing.Size(100, 20);
@@ -170,6 +171,7 @@
             this.btn_Add.TabIndex = 3;
             this.btn_Add.Text = "Thêm";
             this.btn_Add.UseVisualStyleBackColor = true;
+            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
             // btn_Delete
             // 
@@ -179,6 +181,7 @@
             this.btn_Delete.TabIndex = 3;
             this.btn_Delete.Text = "Xóa";
             this.btn_Delete.UseVisualStyleBackColor = true;
+            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // btn_Update
             // 
@@ -271,12 +274,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgv_NhanVien;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NhanVien_id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Ten;
-        private System.Windows.Forms.DataGridViewTextBoxColumn GioiTinh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NgaySinh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn email;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DiaChi;
         private System.Windows.Forms.TextBox txt_date;
         private System.Windows.Forms.TextBox txt_id;
         private System.Windows.Forms.TextBox txt_name;
@@ -292,5 +289,11 @@
         private System.Windows.Forms.TextBox txt_email;
         private System.Windows.Forms.TextBox txt_DiaChi;
         private System.Windows.Forms.TextBox txt_gt;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NhanVien_id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Ten;
+        private System.Windows.Forms.DataGridViewTextBoxColumn GioiTinh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NgaySinh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DiaChi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn email;
     }
 }
