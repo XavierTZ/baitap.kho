@@ -1,6 +1,6 @@
 ﻿namespace QuanlybanMayTinh
 {
-    partial class Form2
+    partial class login
     {
         /// <summary>
         /// Required designer variable.
@@ -42,6 +42,7 @@
             this.btnXacNhan.Name = "btnXacNhan";
             this.btnXacNhan.Size = new System.Drawing.Size(75, 23);
             this.btnXacNhan.TabIndex = 0;
+            this.btnXacNhan.Tag = "4";
             this.btnXacNhan.Text = "Xác Nhận";
             this.btnXacNhan.UseVisualStyleBackColor = true;
             this.btnXacNhan.Click += new System.EventHandler(this.btnXacNhan_Click);
@@ -52,8 +53,10 @@
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(75, 23);
             this.btnHuy.TabIndex = 0;
+            this.btnHuy.Tag = "3";
             this.btnHuy.Text = "Hủy";
             this.btnHuy.UseVisualStyleBackColor = true;
+            this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
             // 
             // txtname
             // 
@@ -61,6 +64,7 @@
             this.txtname.Name = "txtname";
             this.txtname.Size = new System.Drawing.Size(173, 20);
             this.txtname.TabIndex = 1;
+            this.txtname.Tag = "1";
             // 
             // lbTenDangNhap
             // 
@@ -79,6 +83,7 @@
             this.txtpass.PasswordChar = '*';
             this.txtpass.Size = new System.Drawing.Size(173, 20);
             this.txtpass.TabIndex = 1;
+            this.txtpass.Tag = "2";
             // 
             // lbMatKhau
             // 
@@ -90,7 +95,7 @@
             this.lbMatKhau.Text = "Mật khẩu";
             this.lbMatKhau.Click += new System.EventHandler(this.lbTenDangNhap_Click);
             // 
-            // Form2
+            // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -101,8 +106,9 @@
             this.Controls.Add(this.txtname);
             this.Controls.Add(this.btnHuy);
             this.Controls.Add(this.btnXacNhan);
-            this.Name = "Form2";
+            this.Name = "login";
             this.Text = "Đăng nhập";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.login_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

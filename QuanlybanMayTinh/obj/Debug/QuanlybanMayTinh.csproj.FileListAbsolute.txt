@@ -11,3 +11,11 @@ E:\workspace\vs\QuanlybanMayTinh\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.For
 E:\workspace\baitap.kho\QuanlybanMayTinh\bin\Debug\QuanlybanMayTinh.exe.config
 E:\workspace\baitap.kho\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.exe
 E:\workspace\baitap.kho\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.pdb
+E:\workspace\baitap.kho\QuanlybanMayTinh\bin\Debug\QuanlybanMayTinh.exe
+E:\workspace\baitap.kho\QuanlybanMayTinh\bin\Debug\QuanlybanMayTinh.pdb
+E:\workspace\baitap.kho\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.csprojResolveAssemblyReference.cache
+E:\workspace\baitap.kho\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.home.resources
+E:\workspace\baitap.kho\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.login.resources
+E:\workspace\baitap.kho\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.Properties.Resources.resources
+E:\workspace\baitap.kho\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.QuanLyNhanVien.resources
+E:\workspace\baitap.kho\QuanlybanMayTinh\obj\Debug\QuanlybanMayTinh.csproj.GenerateResource.Cache

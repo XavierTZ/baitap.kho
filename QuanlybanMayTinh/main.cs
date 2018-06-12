@@ -19,7 +19,8 @@ namespace QuanlybanMayTinh
 
         private void thêmNhânViênToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            QuanLyNhanVien nv = new QuanLyNhanVien();
+            nv.ShowDialog();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -30,8 +31,12 @@ namespace QuanlybanMayTinh
         private void home_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'baitaplonDataSet.tblLoaiSanPham' table. You can move, or remove it, as needed.
-
         }
 
+        private void DangNhap_Click(object sender, EventArgs e)
+        {
+            login Login = new login();
+            Login.ShowDialog();
+        }
     }
 }

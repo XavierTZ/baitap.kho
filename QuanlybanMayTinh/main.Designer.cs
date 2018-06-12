@@ -51,6 +51,7 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -58,7 +59,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnXacNhan = new System.Windows.Forms.Button();
             this.btnHuy = new System.Windows.Forms.Button();
             this.lbNhanVien = new System.Windows.Forms.Label();
@@ -130,6 +130,7 @@
             this.DangNhap.Name = "DangNhap";
             this.DangNhap.Size = new System.Drawing.Size(170, 22);
             this.DangNhap.Text = "Đăng nhập";
+            this.DangNhap.Click += new System.EventHandler(this.DangNhap_Click);
             // 
             // DangXuat
             // 
@@ -248,6 +249,14 @@
             this.textBox3.Size = new System.Drawing.Size(279, 20);
             this.textBox3.TabIndex = 2;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(10, 175);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(357, 219);
+            this.dataGridView1.TabIndex = 0;
+            // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(88, 19);
@@ -308,14 +317,6 @@
             this.label1.Size = new System.Drawing.Size(75, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Tên sản phẩm";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(10, 175);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(357, 219);
-            this.dataGridView1.TabIndex = 0;
             // 
             // btnXacNhan
             // 
@@ -393,7 +394,6 @@
         private System.Windows.Forms.ToolStripMenuItem DSKhachHang;
         private System.Windows.Forms.ToolStripMenuItem DS_NhanVien;
         private System.Windows.Forms.ToolStripMenuItem About;
-        private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem DangNhap;
         private System.Windows.Forms.ToolStripMenuItem DangXuat;
@@ -415,6 +415,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
+        public System.Windows.Forms.GroupBox groupBox2;
     }
 }
 

@@ -186,3 +186,35 @@ create table tblBangGia(
 	iMaSanPham int not null,
 	iGia int not null,
 )
+
+use baitaplon
+create table tbl_account(
+	username nvarchar(100) unique not null,
+	pass nvarchar(100) not null,
+	iMaNhanVien int
+)
+
+drop table account
+
+create procedure checklogin
+	@username nvarchar(100),
+	@pass nvarchar(100)
+	as
+	begin
+	select username
+	from tbl_account
+	where @username = username
+	end
+
+create proc addaccount
+	@username nvarchar(100),
+	@pass nvarchar(100),
+	@iMaNhanVien int
+	as
+	begin
+		select * from tbl_account
+		
+		insert into tbl_account (username, pass, iMaNhanVien)
+		values (@username, @pass, @iMaNhanVien)
+		where @
+	end
